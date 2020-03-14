@@ -43,20 +43,48 @@ table {
 }
 
 
-.content {
+html, body {
+    width: 100%;
+    height: 100%;
+    background: yellow;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background: purple;
+}
+
+.navbar {
+    background: #141414;
+    height: 60px;
+}
+
+.navbar ul li a {
+    color: white;
+}
+
+
+.footer {
+    background: #141414;
+    height: 150px;
+    color: white;
+}
+
+
+.todo-form {
+    width: 200px;
+    margin: 0 auto;
+}
+
+form {
     display: flex;
     flex-direction: column;
 }
 
-.navbar {
-    background: blue;
-    width: 100%;
-    height: 80px;
-}
-
-
-
-.content {
-    height: 200px;
-    background: red;
+form > input, button {
+    margin: 10px 0;
 }
