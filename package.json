@@ -1,0 +1,12 @@
+{
+  "name": "todo-vanilla-js",
+  "version": "Y",
+  "main": "index.js",
+  "repository": "https://github.com/mchrupcala/todo-vanilla-js.git",
+  "author": "mchrupcala <michael.chrupcala@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "node": "^13.10.1"
+  }
+}
