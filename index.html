@@ -28,11 +28,19 @@
 
             <div class="site-content layer">
                 <div class="todo-form">
-                    <form>
+                    <form id="add-todo-form" value="Submit">
                         <label>Add a ToDo!</label>
-                        <input type="text" name="newTodo">
+                        <input type="text" 
+                        id="add-todo-value"
+                        name="newTodo">
                         </input>
-                        <button type="submit">Add</button>
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
+                <div class="todo-list">
+                    <form>
+                        <label>ToDos:</label>
+                        <div id="my-todo-list"></div>
                     </form>
                 </div>
             </div>
@@ -48,4 +56,6 @@
         </section>
 
     </body>
+
+    <script type="text/javascript" src="app.js"></script>
 </html>
