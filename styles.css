@@ -1,3 +1,5 @@
+/* ERIC MEYER CSS RESET */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,21 +44,67 @@ table {
 	border-spacing: 0;
 }
 
+/************************************/
 
-.content {
+
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background: #141414;
+    height: 60px;
+}
+
+.navbar ul li a {
+    color: white;
+}
+
+
+
+
+
+
+.todo-form, .todo-list {
+    width: 250px;
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 55px 15px;
+    border-radius: 20px;
+}
+
+.layer {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
     display: flex;
     flex-direction: column;
 }
 
-.navbar {
-    background: blue;
-    width: 100%;
-    height: 80px;
+form > input, button {
+    margin: 10px 0;
 }
 
 
 
-.content {
-    height: 200px;
-    background: red;
+
+
+
+.footer {
+    background: #141414;
+    height: 150px;
+    color: white;
 }
